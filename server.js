@@ -84,7 +84,7 @@ app.use('/accounts', accountHandler);
 app.use('/images', imageHandler);
 app.use('/*', clientHanlder);
 
-var port = process.env.PORT || 80;
+var port = process.env.PORT || 3000;
 
 http.createServer(app).listen(port, function (err) {
   console.log('listening on port:' + port);
