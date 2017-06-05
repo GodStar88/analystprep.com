@@ -3133,6 +3133,7 @@ var BaPageTop = (function () {
         this.isMenuCollapsed = false;
         this.user = null;
         this.user = sharedService.getUser();
+        console.log(this.user);
         this._state.subscribe('menu.isCollapsed', function (isCollapsed) {
             _this.isMenuCollapsed = isCollapsed;
         });
