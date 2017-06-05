@@ -59,7 +59,10 @@ module.exports = function (passport) {
                 }
                 if (rows.length != 0) {
                     if (rows[0].password === req.body.password) {
-                        return Util.responseHandler(res, true, 'sucess', null);
+                        var n_login = rows[0].n_login + 1;
+                        sql = 'UPDATE users SET `n_login`="' + n_login + '" WHERE `email`="' + req.body.email + '" AND `auth_type`="email"';
+                        connection.query(sql, function (error) {});
+                        return Util.responseHandler(res, true, 'sucess', rows[0]);
                     }
                     return Util.responseHandler(res, false, 'Invalid email or password', null);
                 } else {
@@ -79,9 +82,7 @@ module.exports = function (passport) {
             database: global.database
         }).then(function (conn) {
             connection = conn;
-            //console.log("password :" +  req.body.password);
             req.body.password = md5(md5(req.body.email) + req.body.password);
-            //console.log("md5 :" +  req.body.password);
             var sql = 'select * from users where `email`="' + req.body.email + '" AND `auth_type`="email"';
             connection.query(sql, function (err, rows, fields) {
                 if (err) {
@@ -90,16 +91,16 @@ module.exports = function (passport) {
                 if (rows.length != 0) {
                     return Util.responseHandler(res, false, 'User already exists', null);
                 } else {
+                    var today = new Date().getTime();
                     var post = {
                         auth_type: "email",
                         email: req.body.email,
                         password: req.body.password,
                         username: req.body.username,
                         location: req.body.location,
-                        exam_date: req.body.exam_date
+                        exam_date: req.body.exam_date,
+                        time_signup: today,
                     };
-                    //var values = [req.body.email, req.body.password, req.body.username, req.body.location, req.body.exam_date];
-                    //sql = 'INSERT INTO users (email, password, username, location, exam_date) VALUES ?'
                     sql = 'INSERT INTO users SET ?'
                     connection.query(sql, post, function (error) {
 
@@ -134,12 +135,22 @@ module.exports = function (passport) {
                     return Util.responseHandler(res, false, 'Error', null);
                 }
                 if (rows.length != 0) {
-                    console.log("----User already exists-----facebook-----");
-                    return Util.responseHandler(res, true, 'User already exists', user);
+                    var n_login = rows[0].n_login + 1;
+                    sql = 'UPDATE users SET `n_login`="' + n_login + '" WHERE `email`="' + user.email + '" AND `auth_type`="facebook"';
+                    connection.query(sql, function (error) {
+                        if (error) {
+                            console.log("----user account update error-----facebook-----");
+                            return Util.responseHandler(res, false, 'Error', null);
+                        } else {
+                            console.log("----User already exists-----facebook-----");
+                            return Util.responseHandler(res, true, 'User already exists', rows[0]);
+                        }
+                    });
                 } else {
-                   
+
                     if (user.location == null) user.location = "Buenos Aires";
                     if (user.exam_date == null) user.exam_date = "CFA Level 1 - December 2017";
+                    var today = new Date().getTime();
                     var post = {
                         auth_type: "facebook",
                         email: user.email,
@@ -147,7 +158,8 @@ module.exports = function (passport) {
                         username: user.username,
                         imagelocation: user.image,
                         location: user.location,
-                        exam_date: user.exam_date
+                        exam_date: user.exam_date,
+                        time_signup: today,
                     };
                     sql = 'INSERT INTO users SET ?'
                     connection.query(sql, post, function (error) {
@@ -166,9 +178,6 @@ module.exports = function (passport) {
     });
     router.post('/google', (req, res) => {
         var user = req.body.user;
-        // console.log(req.body.user);
-        // check if user exists on database, login if true, signup if false
-
         var connection;
         mysql.createConnection({
             host: global.host,
@@ -177,6 +186,7 @@ module.exports = function (passport) {
             database: global.database
         }).then(function (conn) {
             connection = conn;
+
             var sql = 'select * from users where `email`="' + user.email + '" AND `auth_type`="google"';
             connection.query(sql, function (err, rows, fields) {
                 if (err) {
@@ -184,12 +194,24 @@ module.exports = function (passport) {
                     return Util.responseHandler(res, false, 'Error', null);
                 }
                 if (rows.length != 0) {
-                    console.log("----User already exists-----google-----");
-                    return Util.responseHandler(res, true, 'User already exists', user);
+                    var n_login = rows[0].n_login + 1;
+                    sql = 'UPDATE users SET `n_login`="' + n_login + '" WHERE `email`="' + user.email + '" AND `auth_type`="google"';
+                    connection.query(sql, function (error) {
+                        if (error) {
+                            console.log("----user account update error-----google-----");
+                            return Util.responseHandler(res, false, 'Error', null);
+                        } else {
+                            console.log("----User already exists-----google-----");
+                            return Util.responseHandler(res, true, 'User already exists', rows[0]);
+                        }
+                    });
+
                 } else {
-                     console.log(user);
                     if (user.location == null) user.location = "Buenos Aires";
                     if (user.exam_date == null) user.exam_date = "CFA Level 1 - December 2017";
+                    var today = new Date();
+                    today = today.getTime();
+                    console.log (today);
                     var post = {
                         auth_type: "google",
                         email: user.email,
@@ -197,7 +219,8 @@ module.exports = function (passport) {
                         username: user.username,
                         imagelocation: user.image,
                         location: user.location,
-                        exam_date: user.exam_date
+                        exam_date: user.exam_date,
+                        time_signup: today,
                     };
                     sql = 'INSERT INTO users SET ?'
                     connection.query(sql, post, function (error) {
@@ -218,5 +241,6 @@ module.exports = function (passport) {
     var createHash = function (password) {
         return bCrypt.hashSync(password, bCrypt.genSaltSync(10), null);
     };
+
     return router;
 }

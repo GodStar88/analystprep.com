@@ -1,6 +1,6 @@
 webpackJsonp([4,15],{
 
-/***/ 1034:
+/***/ 1045:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44,7 +44,7 @@ var CheckboxInputs = (function () {
 CheckboxInputs = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'checkbox-inputs',
-        template: __webpack_require__(1203),
+        template: __webpack_require__(1224),
     }),
     __metadata("design:paramtypes", [])
 ], CheckboxInputs);
@@ -53,18 +53,18 @@ CheckboxInputs = __decorate([
 
 /***/ }),
 
-/***/ 1035:
+/***/ 1046:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__checkboxInputs_component__ = __webpack_require__(1034);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__checkboxInputs_component__ = __webpack_require__(1045);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__checkboxInputs_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 1036:
+/***/ 1047:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -88,7 +88,7 @@ var GroupInputs = (function () {
 GroupInputs = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'group-inputs',
-        template: __webpack_require__(1204),
+        template: __webpack_require__(1225),
     }),
     __metadata("design:paramtypes", [])
 ], GroupInputs);
@@ -97,29 +97,29 @@ GroupInputs = __decorate([
 
 /***/ }),
 
-/***/ 1037:
+/***/ 1048:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__groupInputs_component__ = __webpack_require__(1036);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__groupInputs_component__ = __webpack_require__(1047);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__groupInputs_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 1038:
+/***/ 1049:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ratinginputs_component__ = __webpack_require__(1039);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ratinginputs_component__ = __webpack_require__(1050);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__ratinginputs_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 1039:
+/***/ 1050:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -147,7 +147,7 @@ var Rating = (function () {
 Rating = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'rating-inputs',
-        template: __webpack_require__(1205)
+        template: __webpack_require__(1226)
     }),
     __metadata("design:paramtypes", [])
 ], Rating);
@@ -156,18 +156,18 @@ Rating = __decorate([
 
 /***/ }),
 
-/***/ 1040:
+/***/ 1051:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__selectInputs_component__ = __webpack_require__(1041);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__selectInputs_component__ = __webpack_require__(1052);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__selectInputs_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 1041:
+/***/ 1052:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -191,8 +191,8 @@ var SelectInputs = (function () {
 SelectInputs = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'select-inputs',
-        styles: [__webpack_require__(1116)],
-        template: __webpack_require__(1206)
+        styles: [__webpack_require__(1127)],
+        template: __webpack_require__(1227)
     }),
     __metadata("design:paramtypes", [])
 ], SelectInputs);
@@ -201,18 +201,18 @@ SelectInputs = __decorate([
 
 /***/ }),
 
-/***/ 1042:
+/***/ 1053:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__standardInputs_component__ = __webpack_require__(1043);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__standardInputs_component__ = __webpack_require__(1054);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__standardInputs_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 1043:
+/***/ 1054:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -236,7 +236,7 @@ var StandardInputs = (function () {
 StandardInputs = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'standard-inputs',
-        template: __webpack_require__(1207),
+        template: __webpack_require__(1228),
     }),
     __metadata("design:paramtypes", [])
 ], StandardInputs);
@@ -245,18 +245,18 @@ StandardInputs = __decorate([
 
 /***/ }),
 
-/***/ 1044:
+/***/ 1055:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__validationInputs_component__ = __webpack_require__(1045);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__validationInputs_component__ = __webpack_require__(1056);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__validationInputs_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 1045:
+/***/ 1056:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -299,7 +299,7 @@ var ValidationInputs = (function () {
 ValidationInputs = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'validation-inputs',
-        template: __webpack_require__(1208),
+        template: __webpack_require__(1229),
     }),
     __metadata("design:paramtypes", [])
 ], ValidationInputs);
@@ -308,18 +308,18 @@ ValidationInputs = __decorate([
 
 /***/ }),
 
-/***/ 1046:
+/***/ 1057:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__inputs_component__ = __webpack_require__(961);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__inputs_component__ = __webpack_require__(964);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__inputs_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 1047:
+/***/ 1058:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -344,7 +344,7 @@ var BasicForm = (function () {
 BasicForm = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'basic-form',
-        template: __webpack_require__(1210),
+        template: __webpack_require__(1231),
     }),
     __metadata("design:paramtypes", [])
 ], BasicForm);
@@ -353,18 +353,18 @@ BasicForm = __decorate([
 
 /***/ }),
 
-/***/ 1048:
+/***/ 1059:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__basicForm_component__ = __webpack_require__(1047);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__basicForm_component__ = __webpack_require__(1058);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__basicForm_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 1049:
+/***/ 1060:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -388,7 +388,7 @@ var BlockForm = (function () {
 BlockForm = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'block-form',
-        template: __webpack_require__(1211),
+        template: __webpack_require__(1232),
     }),
     __metadata("design:paramtypes", [])
 ], BlockForm);
@@ -397,18 +397,18 @@ BlockForm = __decorate([
 
 /***/ }),
 
-/***/ 1050:
+/***/ 1061:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__blockForm_component__ = __webpack_require__(1049);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__blockForm_component__ = __webpack_require__(1060);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__blockForm_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 1051:
+/***/ 1062:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -433,7 +433,7 @@ var HorizontalForm = (function () {
 HorizontalForm = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'horizontal-form',
-        template: __webpack_require__(1212),
+        template: __webpack_require__(1233),
     }),
     __metadata("design:paramtypes", [])
 ], HorizontalForm);
@@ -442,29 +442,29 @@ HorizontalForm = __decorate([
 
 /***/ }),
 
-/***/ 1052:
+/***/ 1063:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__horizontalForm_component__ = __webpack_require__(1051);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__horizontalForm_component__ = __webpack_require__(1062);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__horizontalForm_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 1053:
+/***/ 1064:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__inlineForm_component__ = __webpack_require__(1054);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__inlineForm_component__ = __webpack_require__(1065);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__inlineForm_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 1054:
+/***/ 1065:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -489,8 +489,8 @@ var InlineForm = (function () {
 InlineForm = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'inline-form',
-        styles: [__webpack_require__(1117)],
-        template: __webpack_require__(1213),
+        styles: [__webpack_require__(1128)],
+        template: __webpack_require__(1234),
     }),
     __metadata("design:paramtypes", [])
 ], InlineForm);
@@ -499,18 +499,18 @@ InlineForm = __decorate([
 
 /***/ }),
 
-/***/ 1055:
+/***/ 1066:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__withoutLabelsForm_component__ = __webpack_require__(1056);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__withoutLabelsForm_component__ = __webpack_require__(1067);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__withoutLabelsForm_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 1056:
+/***/ 1067:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -534,7 +534,7 @@ var WithoutLabelsForm = (function () {
 WithoutLabelsForm = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'without-labels-form',
-        template: __webpack_require__(1214),
+        template: __webpack_require__(1235),
     }),
     __metadata("design:paramtypes", [])
 ], WithoutLabelsForm);
@@ -543,25 +543,25 @@ WithoutLabelsForm = __decorate([
 
 /***/ }),
 
-/***/ 1057:
+/***/ 1068:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__layouts_component__ = __webpack_require__(962);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__layouts_component__ = __webpack_require__(965);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__layouts_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 1058:
+/***/ 1069:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__forms_component__ = __webpack_require__(963);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_inputs_inputs_component__ = __webpack_require__(961);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_layouts_layouts_component__ = __webpack_require__(962);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__forms_component__ = __webpack_require__(966);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_inputs_inputs_component__ = __webpack_require__(964);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_layouts_layouts_component__ = __webpack_require__(965);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return routing; });
 
 
@@ -583,7 +583,7 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule 
 
 /***/ }),
 
-/***/ 1116:
+/***/ 1127:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(4)(false);
@@ -601,7 +601,7 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 1117:
+/***/ 1128:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(4)(false);
@@ -619,91 +619,91 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 1203:
+/***/ 1224:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"checkbox-demo-row\">\n  <div class=\"input-demo checkbox-demo row\">\n    <ba-multi-checkbox [(ngModel)]=\"checkboxModel\" [propertiesMapping]=\"checkboxPropertiesMapping\"></ba-multi-checkbox>\n  </div>\n  <div class=\"input-demo radio-demo row\">\n    <div class=\"col-md-4\">\n      <label class=\"radio-inline custom-radio nowrap\">\n        <input type=\"radio\" name=\"inlineRadioOptions\" id=\"inlineRadio1\" value=\"option1\">\n        <span translate>{{'general.forms.option1'}}</span>\n      </label>\n    </div>\n    <div class=\"col-md-4\">\n      <label class=\"radio-inline custom-radio nowrap\">\n        <input type=\"radio\" name=\"inlineRadioOptions\" id=\"inlineRadio2\" value=\"option2\">\n        <span>Option 2</span>\n      </label>\n    </div>\n    <div class=\"col-md-4\">\n      <label class=\"radio-inline custom-radio nowrap\">\n        <input type=\"radio\" name=\"inlineRadioOptions\" id=\"inlineRadio3\" value=\"option3\">\n        <span>Option3</span>\n      </label>\n    </div>\n  </div>\n</div>\n<div>\n  <ba-checkbox [(ngModel)]=\"isDisabled\" [baCheckboxClass]=\"'disabled'\" [label]=\"'Disabled checkbox'\" [disabled]=\"true\"></ba-checkbox>\n  <div class=\"radio disabled\">\n    <label class=\"custom-radio nowrap\">\n      <input type=\"radio\" name=\"optionsRadios\" id=\"optionsRadios3\" value=\"option3\" disabled>\n      <span>Disabled option</span>\n    </label>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ 1204:
+/***/ 1225:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"input-group\">\n  <span class=\"input-group-addon input-group-addon-primary addon-left\" id=\"basic-addon1\">@</span>\n  <input type=\"text\" class=\"form-control with-primary-addon\" placeholder=\"Username\" aria-describedby=\"basic-addon1\">\n</div>\n\n<div class=\"input-group\">\n  <input type=\"text\" class=\"form-control with-warning-addon\" placeholder=\"Recipient's username\" aria-describedby=\"basic-addon2\">\n  <span class=\"input-group-addon input-group-addon-warning addon-right\" id=\"basic-addon2\">@example.com</span>\n</div>\n\n<div class=\"input-group\">\n  <span class=\"input-group-addon addon-left input-group-addon-success\">$</span>\n  <input type=\"text\" class=\"form-control with-success-addon\" aria-label=\"Amount (to the nearest dollar)\">\n  <span class=\"input-group-addon addon-right input-group-addon-success\">.00</span>\n</div>\n\n<div class=\"input-group\">\n  <input type=\"text\" class=\"form-control with-danger-addon\" placeholder=\"Search for...\">\n  <span class=\"input-group-btn\">\n      <button class=\"btn btn-danger\" type=\"button\">Go!</button>\n  </span>\n</div>\n"
 
 /***/ }),
 
-/***/ 1205:
+/***/ 1226:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"raiting-box\">\n  <div class=\"col-md-4\">\n    <ngb-rating [(ngModel)]=\"_rate1\" max=\"{{_max1}}\" class=\"rating\">\n        <ng-template let-fill=\"fill\">\n            <i *ngIf=\"fill === 100\" class=\"ion-android-star\"></i>\n            <i *ngIf=\"fill === 0\" class=\"ion-android-star-outline\"></i>\n        </ng-template>\n    </ngb-rating>\n    <span class=\"help-block\">Rate: {{_rate1}}</span>\n  </div>\n\n  <div class=\"col-md-8\">\n    <ngb-rating [(ngModel)]=\"_rate2\" max=\"{{_max2}}\" class=\"rating\">\n        <ng-template let-fill=\"fill\">\n            <i *ngIf=\"fill === 100\" class=\"ion-ios-heart\"></i>\n            <i *ngIf=\"fill === 0\" class=\"ion-ios-heart-outline\"></i>\n        </ng-template>\n    </ngb-rating>\n    <span class=\"help-block\">Rate: {{_rate2}}</span>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ 1206:
+/***/ 1227:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"form-group\">\n  <label for=\"exampleSelect1\">Example select</label>\n  <select class=\"form-control\" id=\"exampleSelect1\">\n    <option>1</option>\n    <option>2</option>\n    <option>3</option>\n    <option>4</option>\n    <option>5</option>\n  </select>\n</div>\n\n<div class=\"form-group\">\n  <label for=\"exampleSelect2\">Example multiple select</label>\n  <select multiple class=\"form-control\" id=\"exampleSelect2\">\n    <option>1</option>\n    <option>2</option>\n    <option>3</option>\n    <option>4</option>\n    <option>5</option>\n  </select>\n</div>\n"
 
 /***/ }),
 
-/***/ 1207:
+/***/ 1228:
 /***/ (function(module, exports) {
 
 module.exports = "<form>\n  <div class=\"form-group\">\n    <label for=\"input01\">Text</label>\n    <input type=\"text\" class=\"form-control\" id=\"input01\" placeholder=\"Text\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"input02\">Password</label>\n    <input type=\"password\" class=\"form-control\" id=\"input02\" placeholder=\"Password\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"input03\">Rounded Corners</label>\n    <input type=\"text\" class=\"form-control form-control-rounded\" id=\"input03\" placeholder=\"Rounded Corners\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"input04\">With help</label>\n    <input type=\"text\" class=\"form-control\" id=\"input04\" placeholder=\"With help\">\n    <span class=\"help-block sub-little-text\">A block of help text that breaks onto a new line and may extend beyond one line.</span>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"input05\">Disabled Input</label>\n    <input type=\"text\" class=\"form-control\" id=\"input05\" placeholder=\"Disabled Input\" disabled>\n  </div>\n\n  <div class=\"form-group\">\n    <label for=\"textarea01\">Textarea</label>\n    <textarea placeholder=\"Default Input\" class=\"form-control\" id=\"textarea01\"></textarea>\n  </div>\n\n  <div class=\"form-group\">\n    <input type=\"text\" class=\"form-control form-control-sm\" id=\"input2\" placeholder=\"Small Input\">\n  </div>\n  <div class=\"form-group\">\n    <input type=\"text\" class=\"form-control form-control-lg\" id=\"input4\" placeholder=\"Large Input\">\n  </div>\n</form>\n"
 
 /***/ }),
 
-/***/ 1208:
+/***/ 1229:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"form-group has-success\">\n  <label class=\"control-label\" for=\"inputSuccess1\">Input with success</label>\n  <input type=\"text\" class=\"form-control\" id=\"inputSuccess1\">\n</div>\n<div class=\"form-group has-warning\">\n  <label class=\"control-label\" for=\"inputWarning1\">Input with warning</label>\n  <input type=\"text\" class=\"form-control\" id=\"inputWarning1\">\n</div>\n<div class=\"form-group has-error\">\n  <label class=\"control-label\" for=\"inputError1\">Input with error</label>\n  <input type=\"text\" class=\"form-control\" id=\"inputError1\">\n</div>\n  <ba-multi-checkbox [(ngModel)]=\"checkboxModel\" [propertiesMapping]=\"checkboxPropertiesMapping\"></ba-multi-checkbox>\n<div class=\"form-group has-success has-feedback\">\n  <label class=\"control-label\" for=\"inputSuccess2\">Input with success</label>\n  <input type=\"text\" class=\"form-control\" id=\"inputSuccess2\" aria-describedby=\"inputSuccess2Status\">\n  <i class=\"ion-checkmark-circled form-control-feedback\" aria-hidden=\"true\"></i>\n  <span id=\"inputSuccess2Status\" class=\"sr-only\">(success)</span>\n</div>\n<div class=\"form-group has-warning has-feedback\">\n  <label class=\"control-label\" for=\"inputWarning2\">Input with warning</label>\n  <input type=\"text\" class=\"form-control\" id=\"inputWarning2\" aria-describedby=\"inputWarning2Status\">\n  <i class=\"ion-alert-circled form-control-feedback\" aria-hidden=\"true\"></i>\n  <span id=\"inputWarning2Status\" class=\"sr-only\">(warning)</span>\n</div>\n<div class=\"form-group has-error has-feedback\">\n  <label class=\"control-label\" for=\"inputError2\">Input with error</label>\n  <input type=\"text\" class=\"form-control\" id=\"inputError2\" aria-describedby=\"inputError2Status\">\n  <i class=\"ion-android-cancel form-control-feedback\" aria-hidden=\"true\"></i>\n  <span id=\"inputError2Status\" class=\"sr-only\">(error)</span>\n</div>\n<div class=\"form-group has-success has-feedback\">\n  <label class=\"control-label\" for=\"inputGroupSuccess1\">Input group with success</label>\n  <div class=\"input-group\">\n    <span class=\"input-group-addon addon-left\">@</span>\n    <input type=\"text\" class=\"form-control\" id=\"inputGroupSuccess1\" aria-describedby=\"inputGroupSuccess1Status\">\n  </div>\n  <i class=\"ion-checkmark-circled form-control-feedback\" aria-hidden=\"true\"></i>\n  <span id=\"inputGroupSuccess1Status\" class=\"sr-only\">(success)</span>\n</div>\n"
 
 /***/ }),
 
-/***/ 1209:
+/***/ 1230:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"widgets\">\n\n  <div class=\"row\">\n    <div class=\"col-md-6\">\n      <ba-card title=\"Standard Fields\" baCardClass=\"with-scroll\">\n        <standard-inputs></standard-inputs>\n      </ba-card>\n\n      <ba-card title=\"Input Groups\" baCardClass=\"with-scroll\">\n        <group-inputs></group-inputs>\n      </ba-card>\n\n      <ba-card title=\"Selects\" baCardClass=\"with-scroll\">\n        <select-inputs></select-inputs>\n      </ba-card>\n    </div>\n\n    <div class=\"col-md-6\">\n      <ba-card title=\"Validation States\" baCardClass=\"with-scroll\">\n        <validation-inputs></validation-inputs>\n      </ba-card>\n\n      <ba-card title=\"Checkboxes & Radios\" baCardClass=\"with-scroll\">\n        <checkbox-inputs></checkbox-inputs>\n      </ba-card>\n\n      <ba-card title=\"Rating\" baCardClass=\"with-scroll\">\n        <rating-inputs></rating-inputs>\n      </ba-card>\n    </div>\n  </div>\n\n</div>\n"
 
 /***/ }),
 
-/***/ 1210:
+/***/ 1231:
 /***/ (function(module, exports) {
 
 module.exports = "<form>\n  <div class=\"form-group\">\n    <label for=\"exampleInputEmail1\">Email address</label>\n    <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail1\" placeholder=\"Email\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"exampleInputPassword1\">Password</label>\n    <input type=\"password\" class=\"form-control\" id=\"exampleInputPassword1\" placeholder=\"Password\">\n  </div>\n  <div class=\"checkbox\">\n    <ba-checkbox [(ngModel)]=\"isChecked\" [label]=\"'Check me out'\" [ngModelOptions]=\"{standalone: true}\"></ba-checkbox>\n  </div>\n  <button type=\"submit\" class=\"btn btn-danger\">Submit</button>\n</form>\n"
 
 /***/ }),
 
-/***/ 1211:
+/***/ 1232:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"row\">\n  <div class=\"col-sm-6\">\n    <div class=\"form-group\">\n      <label for=\"inputFirstName\">First Name</label>\n      <input type=\"text\" class=\"form-control\" id=\"inputFirstName\" placeholder=\"First Name\">\n    </div>\n  </div>\n  <div class=\"col-sm-6\">\n    <div class=\"form-group\">\n      <label for=\"inputLastName\">Last Name</label>\n      <input type=\"text\" class=\"form-control\" id=\"inputLastName\" placeholder=\"Last Name\">\n    </div>\n  </div>\n</div>\n<div class=\"row\">\n  <div class=\"col-sm-6\">\n    <div class=\"form-group\">\n      <label for=\"inputEmail\">Email</label>\n      <input type=\"email\" class=\"form-control\" id=\"inputEmail\" placeholder=\"Email\">\n    </div>\n  </div>\n  <div class=\"col-sm-6\">\n    <div class=\"form-group\">\n      <label for=\"inputWebsite\">Website</label>\n      <input type=\"text\" class=\"form-control\" id=\"inputWebsite\" placeholder=\"Website\">\n    </div>\n  </div>\n</div>\n<button type=\"submit\" class=\"btn btn-primary\">Submit</button>\n"
 
 /***/ }),
 
-/***/ 1212:
+/***/ 1233:
 /***/ (function(module, exports) {
 
 module.exports = "<form class=\"form-horizontal\">\n  <div class=\"form-group row\">\n    <label for=\"inputEmail3\" class=\"col-sm-2 form-control-label\">Email</label>\n    <div class=\"col-sm-10\">\n      <input type=\"email\" class=\"form-control\" id=\"inputEmail3\" placeholder=\"Email\">\n    </div>\n  </div>\n  <div class=\"form-group row\">\n    <label for=\"inputPassword3\" class=\"col-sm-2 form-control-label\">Password</label>\n    <div class=\"col-sm-10\">\n      <input type=\"password\" class=\"form-control\" id=\"inputPassword3\" placeholder=\"Password\">\n    </div>\n  </div>\n  <div class=\"form-group row\">\n    <div class=\"offset-sm-2 col-sm-10\">\n      <div class=\"checkbox\">\n        <ba-checkbox [(ngModel)]=\"isRemember\" [label]=\"'Remember me'\" [ngModelOptions]=\"{standalone: true}\"></ba-checkbox>\n      </div>\n    </div>\n  </div>\n  <div class=\"form-group row\">\n    <div class=\"offset-sm-2 col-sm-10\">\n      <button type=\"submit\" class=\"btn btn-warning\">Sign in</button>\n    </div>\n  </div>\n</form>\n"
 
 /***/ }),
 
-/***/ 1213:
+/***/ 1234:
 /***/ (function(module, exports) {
 
 module.exports = "<form class=\"row form-inline\">\n  <div class=\"form-group col-sm-3\">\n    <input type=\"text\" class=\"form-control\" id=\"exampleInputName2\" placeholder=\"Name\">\n  </div>\n  <div class=\"form-group col-sm-3\">\n    <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail2\" placeholder=\"Email\">\n  </div>\n  <div class=\"form-group\">\n    <div class=\"checkbox\">\n      <ba-checkbox [(ngModel)]=\"isRemember\" [label]=\"'Remember me'\" [ngModelOptions]=\"{standalone: true}\"></ba-checkbox>\n    </div>\n  </div>\n  <div class=\"form-group\">\n    <button type=\"submit\" class=\"btn btn-primary\">Send invitation</button>\n  </div>\n</form>\n"
 
 /***/ }),
 
-/***/ 1214:
+/***/ 1235:
 /***/ (function(module, exports) {
 
 module.exports = "<form>\n  <div class=\"form-group\">\n    <input type=\"text\" class=\"form-control\" placeholder=\"Recipients\">\n  </div>\n  <div class=\"form-group\">\n    <input type=\"text\" class=\"form-control\" placeholder=\"Subject\">\n  </div>\n  <div class=\"form-group\">\n    <textarea class=\"form-control\" placeholder=\"Message\"></textarea>\n  </div>\n  <button type=\"submit\" class=\"btn btn-success\">Send</button>\n</form>\n"
 
 /***/ }),
 
-/***/ 1215:
+/***/ 1236:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"widgets\">\n\n  <div class=\"row\">\n    <div class=\"col-md-12\">\n      <ba-card title=\"Inline Form\" baCardClass=\"with-scroll\">\n        <inline-form></inline-form>\n      </ba-card>\n    </div>\n  </div>\n\n  <div class=\"row\">\n    <div class=\"col-md-6\">\n      <div>\n        <ba-card title=\"Basic Form\" baCardClass=\"with-scroll\">\n          <basic-form></basic-form>\n        </ba-card>\n      </div>\n\n      <div>\n        <ba-card title=\"Horizontal Form\" baCardClass=\"with-scroll\">\n          <horizontal-form></horizontal-form>\n        </ba-card>\n      </div>\n    </div>\n    <div class=\"col-md-6\">\n      <div>\n        <ba-card title=\"Form Without Labels\" baCardClass=\"with-scroll\">\n          <without-labels-form></without-labels-form>\n        </ba-card>\n      </div>\n      <div>\n        <ba-card title=\"Block Form\" baCardClass=\"with-scroll\">\n          <block-form></block-form>\n        </ba-card>\n      </div>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-md-6\">\n      <ba-card title=\"Picture Uploader\" baCardClass=\"with-scroll\">\n        <ba-picture-uploader [picture]=\"profile.picture\" [defaultPicture]=\"defaultPicture\" [uploaderOptions]=\"uploaderOptions\"></ba-picture-uploader>\n      </ba-card>\n    </div>\n    <div class=\"col-md-6\">\n      <ba-card title=\"File Uploader\" baCardClass=\"with-scroll\">\n        <ba-file-uploader [fileUploaderOptions]=\"fileUploaderOptions\"></ba-file-uploader>\n      </ba-card>\n    </div>\n  </div>\n</div>\n"
@@ -721,21 +721,21 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_translation_module__ = __webpack_require__(174);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__theme_nga_module__ = __webpack_require__(172);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ng_bootstrap_ng_bootstrap__ = __webpack_require__(398);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__forms_routing__ = __webpack_require__(1058);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__forms_component__ = __webpack_require__(963);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_inputs__ = __webpack_require__(1046);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_layouts__ = __webpack_require__(1057);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_inputs_components_standardInputs__ = __webpack_require__(1042);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_inputs_components_validationInputs__ = __webpack_require__(1044);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_inputs_components_groupInputs__ = __webpack_require__(1037);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_inputs_components_checkboxInputs__ = __webpack_require__(1035);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_inputs_components_ratinginputs__ = __webpack_require__(1038);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_inputs_components_selectInputs__ = __webpack_require__(1040);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_layouts_components_inlineForm__ = __webpack_require__(1053);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_layouts_components_blockForm__ = __webpack_require__(1050);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_layouts_components_horizontalForm__ = __webpack_require__(1052);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_layouts_components_basicForm__ = __webpack_require__(1048);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__components_layouts_components_withoutLabelsForm__ = __webpack_require__(1055);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__forms_routing__ = __webpack_require__(1069);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__forms_component__ = __webpack_require__(966);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_inputs__ = __webpack_require__(1057);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_layouts__ = __webpack_require__(1068);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_inputs_components_standardInputs__ = __webpack_require__(1053);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_inputs_components_validationInputs__ = __webpack_require__(1055);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_inputs_components_groupInputs__ = __webpack_require__(1048);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_inputs_components_checkboxInputs__ = __webpack_require__(1046);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_inputs_components_ratinginputs__ = __webpack_require__(1049);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_inputs_components_selectInputs__ = __webpack_require__(1051);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_layouts_components_inlineForm__ = __webpack_require__(1064);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_layouts_components_blockForm__ = __webpack_require__(1061);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_layouts_components_horizontalForm__ = __webpack_require__(1063);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_layouts_components_basicForm__ = __webpack_require__(1059);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__components_layouts_components_withoutLabelsForm__ = __webpack_require__(1066);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormsModule", function() { return FormsModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -802,7 +802,7 @@ FormsModule = __decorate([
 
 /***/ }),
 
-/***/ 961:
+/***/ 964:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -826,7 +826,7 @@ var Inputs = (function () {
 Inputs = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'inputs',
-        template: __webpack_require__(1209),
+        template: __webpack_require__(1230),
     }),
     __metadata("design:paramtypes", [])
 ], Inputs);
@@ -835,7 +835,7 @@ Inputs = __decorate([
 
 /***/ }),
 
-/***/ 962:
+/***/ 965:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -873,7 +873,7 @@ var Layouts = (function () {
 Layouts = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'layouts',
-        template: __webpack_require__(1215),
+        template: __webpack_require__(1236),
     }),
     __metadata("design:paramtypes", [])
 ], Layouts);
@@ -882,7 +882,7 @@ Layouts = __decorate([
 
 /***/ }),
 
-/***/ 963:
+/***/ 966:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

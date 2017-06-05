@@ -1,6 +1,6 @@
 webpackJsonp([6,15],{
 
-/***/ 1032:
+/***/ 1043:
 /***/ (function(module, exports) {
 
 window['CKEDITOR_BASEPATH'] = '//cdn.ckeditor.com/4.6.0/full/';
@@ -8,13 +8,13 @@ window['CKEDITOR_BASEPATH'] = '//cdn.ckeditor.com/4.6.0/full/';
 
 /***/ }),
 
-/***/ 1033:
+/***/ 1044:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__editors_component__ = __webpack_require__(960);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_ckeditor_ckeditor_component__ = __webpack_require__(959);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__editors_component__ = __webpack_require__(963);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_ckeditor_ckeditor_component__ = __webpack_require__(962);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return routing; });
 
 
@@ -34,7 +34,7 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule 
 
 /***/ }),
 
-/***/ 1103:
+/***/ 1114:
 /***/ (function(module, exports) {
 
 ﻿/*
@@ -1063,7 +1063,7 @@ CKEDITOR.config.skin="moono-lisa",function(){var a=function(a,b){var c=CKEDITOR.
 
 /***/ }),
 
-/***/ 1115:
+/***/ 1126:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(4)(false);
@@ -1081,7 +1081,7 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 1137:
+/***/ 1148:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1094,7 +1094,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 var core_1 = __webpack_require__(0);
 var common_1 = __webpack_require__(7);
-var ckeditor_component_1 = __webpack_require__(993);
+var ckeditor_component_1 = __webpack_require__(996);
 var ckbutton_directive_1 = __webpack_require__(688);
 var ckgroup_directive_1 = __webpack_require__(693);
 /**
@@ -1127,14 +1127,14 @@ exports.CKEditorModule = CKEditorModule;
 
 /***/ }),
 
-/***/ 1138:
+/***/ 1149:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var ckeditor_module_1 = __webpack_require__(1137);
+var ckeditor_module_1 = __webpack_require__(1148);
 exports.CKEditorModule = ckeditor_module_1.CKEditorModule;
-var ckeditor_component_1 = __webpack_require__(993);
+var ckeditor_component_1 = __webpack_require__(996);
 exports.CKEditorComponent = ckeditor_component_1.CKEditorComponent;
 var ckbutton_directive_1 = __webpack_require__(688);
 exports.CKButtonDirective = ckbutton_directive_1.CKButtonDirective;
@@ -1144,7 +1144,7 @@ exports.CKGroupDirective = ckgroup_directive_1.CKGroupDirective;
 
 /***/ }),
 
-/***/ 1202:
+/***/ 1223:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"row\">\n  <div class=\"col-md-12\">\n    <ba-card title=\"ckeditor\" baCardClass=\"with-scroll\">\n      <ckeditor [(ngModel)]=\"ckeditorContent\" [config]=\"config\"></ckeditor>\n    </ba-card>\n  </div>\n</div>\n"
@@ -1159,12 +1159,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ng2_ckeditor__ = __webpack_require__(1138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ng2_ckeditor__ = __webpack_require__(1149);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ng2_ckeditor___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_ng2_ckeditor__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__theme_nga_module__ = __webpack_require__(172);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__editors_routing__ = __webpack_require__(1033);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__editors_component__ = __webpack_require__(960);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_ckeditor_ckeditor_component__ = __webpack_require__(959);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__editors_routing__ = __webpack_require__(1044);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__editors_component__ = __webpack_require__(963);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_ckeditor_ckeditor_component__ = __webpack_require__(962);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditorsModule", function() { return EditorsModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1358,14 +1358,14 @@ exports.CKGroupDirective = CKGroupDirective;
 
 /***/ }),
 
-/***/ 959:
+/***/ 962:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_loader__ = __webpack_require__(1032);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_loader__ = __webpack_require__(1043);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_loader___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__ckeditor_loader__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ckeditor__ = __webpack_require__(1103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ckeditor__ = __webpack_require__(1114);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ckeditor___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_ckeditor__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Ckeditor; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1393,8 +1393,8 @@ var Ckeditor = (function () {
 Ckeditor = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'ckeditor-component',
-        template: __webpack_require__(1202),
-        styles: [__webpack_require__(1115)]
+        template: __webpack_require__(1223),
+        styles: [__webpack_require__(1126)]
     }),
     __metadata("design:paramtypes", [])
 ], Ckeditor);
@@ -1403,7 +1403,7 @@ Ckeditor = __decorate([
 
 /***/ }),
 
-/***/ 960:
+/***/ 963:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1436,7 +1436,7 @@ Editors = __decorate([
 
 /***/ }),
 
-/***/ 993:
+/***/ 996:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
